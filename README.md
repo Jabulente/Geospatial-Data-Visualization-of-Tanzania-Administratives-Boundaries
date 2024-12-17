@@ -1,4 +1,4 @@
-## Geospatial Data Visualization of Tanzania’s Administrative Boundaries Using Python
+# Geospatial Data Visualization of Tanzania’s Administrative Boundaries Using Python
 
 
 ---
@@ -33,15 +33,15 @@ Programming Language: Python
 
 Libraries:
 
-Geopandas: For geospatial data manipulation and visualization.
+`Geopandas:` For geospatial data manipulation and visualization.
 
-Matplotlib: For creating static maps and plots.
+`Matplotlib:` For creating static maps and plots.
 
-Shapely: For geometric operations.
+`Shapely:` For geometric operations.
 
-Folium: For interactive web-based mapping.
+`Folium:` For interactive web-based mapping.
 
-Pandas: For handling attribute data.
+`Pandas:` For handling attribute data.
 
 
 
@@ -52,11 +52,11 @@ Pandas: For handling attribute data.
 
 The shapefiles and other geospatial datasets for Tanzania were sourced from:
 
-Tanzania National Bureau of Statistics (NBS).
+1. Tanzania National Bureau of Statistics (NBS).
 
-OpenStreetMap and other open geospatial repositories.
+2. OpenStreetMap and other open geospatial repositories.
 
-Custom data collected and aligned with administrative boundaries.
+3. Custom data collected and aligned with administrative boundaries.
 
 
 
@@ -72,13 +72,13 @@ pip install geopandas matplotlib shapely folium pandas
 
 ## Directory Structure
 
-|-- data/                  # Contains the shapefiles and other geospatial datasets  
+``|-- data/                  # Contains the shapefiles and other geospatial datasets  
 |-- notebooks/             # Jupyter notebooks for code and analysis  
 |-- outputs/               # Outputs including generated maps and visualizations  
 |-- scripts/               # Python scripts for geospatial operations  
 |-- README.md              # Project documentation  
 |-- requirements.txt       # List of dependencies
-
+``
 
 ---
 
@@ -86,13 +86,13 @@ pip install geopandas matplotlib shapely folium pandas
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/tanzania-geo-visualization.git
-cd tanzania-geo-visualization
+``git clone https://github.com/your-username/tanzania-geo-visualization.git
+cd tanzania-geo-visualization ``
 
 
 2. Install dependencies:
 
-pip install -r requirements.txt
+``pip install -r requirements.txt``
 
 
 3. Place shapefiles or GeoJSON files in the data/ directory.
@@ -100,7 +100,7 @@ pip install -r requirements.txt
 
 4. Run the main script or notebook:
 
-python scripts/visualize_tanzania.py
+``python scripts/visualize_tanzania.py``
 
 Or open the notebook:
 
