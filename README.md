@@ -72,7 +72,8 @@ pip install geopandas matplotlib shapely folium pandas
 
 ## Directory Structure
 
-``|-- data/                  # Contains the shapefiles and other geospatial datasets  
+``
+|-- data/                  # Contains the shapefiles and other geospatial datasets  
 |-- notebooks/             # Jupyter notebooks for code and analysis  
 |-- outputs/               # Outputs including generated maps and visualizations  
 |-- scripts/               # Python scripts for geospatial operations  
