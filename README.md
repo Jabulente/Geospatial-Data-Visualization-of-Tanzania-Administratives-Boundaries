@@ -62,50 +62,6 @@ The shapefiles and other geospatial datasets for Tanzania were sourced from:
 
 ---
 
-## Setup Instructions
-
-Prerequisites
-
-Make sure Python is installed (version 3.8 or higher). Install the required libraries:
-
-pip install geopandas matplotlib shapely folium pandas
-
-## Directory Structure
-
-``
-|-- data/                  # Contains the shapefiles and other geospatial datasets  
-|-- notebooks/             # Jupyter notebooks for code and analysis  
-|-- outputs/               # Outputs including generated maps and visualizations  
-|-- scripts/               # Python scripts for geospatial operations  
-|-- README.md              # Project documentation  
-|-- requirements.txt       # List of dependencies
-``
-
----
-
-## How to Run the Project
-
-1. Clone the repository:
-
-``git clone https://github.com/your-username/tanzania-geo-visualization.git
-cd tanzania-geo-visualization ``
-
-
-2. Install dependencies:
-
-``pip install -r requirements.txt``
-
-
-3. Place shapefiles or GeoJSON files in the data/ directory.
-
-
-4. Run the main script or notebook:
-
-``python scripts/visualize_tanzania.py``
-
-Or open the notebook:
-
-jupyter notebook notebooks/geo_visualization.ipynb
 
 
 
